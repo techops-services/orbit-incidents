@@ -1,0 +1,16 @@
+{
+  "id": "9e8d7c6b-5a4f-4e3d-2c1b-0a9f8e7d6c55",
+  "short_id": "or8Tz5",
+  "source": "generic_webhook",
+  "status": "triggered",
+  "created_at": "2026-11-02T08:05:10Z",
+  "summary": "Price feed missing (testnet)",
+  "description": "Price feed missing for SOL-PERP. Trading on this market is paused. Cause: vendor stale",
+  "groups": ["Markets"],
+  "labels": [{"key": "market", "value": "SOL-PERP"}],
+  "alert_fields": {
+    "environment": "testnet",
+    "severity": "page",
+    "runbook": "https://github.com/techops-services/orbit-runbooks/blob/main/price-feed-missing.md"
+  }
+}

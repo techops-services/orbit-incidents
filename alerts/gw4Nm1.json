@@ -1,0 +1,16 @@
+{
+  "id": "0c2d4e6f-1a3b-4c5d-8e7f-9a0b1c2d3e44",
+  "short_id": "gw4Nm1",
+  "source": "generic_webhook",
+  "status": "triggered",
+  "created_at": "2026-11-02T07:58:30Z",
+  "summary": "Gateway health check failed (mainnet): api-gateway",
+  "description": "Health check https://gateway.orbit.example/health failed: fetch timeout after 10s.",
+  "groups": ["Platform"],
+  "labels": [{"key": "service", "value": "api-gateway"}],
+  "alert_fields": {
+    "environment": "mainnet",
+    "severity": "page",
+    "runbook": "https://github.com/techops-services/orbit-runbooks/blob/main/gateway-healthcheck.md"
+  }
+}

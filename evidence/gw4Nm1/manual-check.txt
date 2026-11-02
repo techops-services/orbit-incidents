@@ -1,0 +1,6 @@
+$ date -u; curl -s -o /dev/null -w '%{http_code}\n' https://gateway.orbit.example/health
+Mon Nov  2 08:16:05 UTC 2026
+200
+
+$ curl -s -o /dev/null -w '%{http_code}\n' https://github.com/techops-services/orbit-runbooks/blob/main/gateway-healthcheck.md
+404

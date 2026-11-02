@@ -1,0 +1,16 @@
+2026-11-02T07:43:42Z INFO  heartbeat sent seq=88412
+2026-11-02T07:44:12Z INFO  heartbeat sent seq=88413
+2026-11-02T07:44:40Z INFO  event received id=ev_51f2 kind=task
+2026-11-02T07:45:10Z WARN  queue publish timeout after 20s (heartbeat seq=88414)
+2026-11-02T07:45:11Z INFO  queue reconnecting
+2026-11-02T07:45:12Z INFO  queue connected
+2026-11-02T07:45:41Z WARN  queue publish timeout after 20s (response ev_51f2)
+2026-11-02T07:46:12Z WARN  queue publish timeout after 20s (heartbeat seq=88415)
+2026-11-02T07:46:13Z INFO  queue reconnecting
+2026-11-02T07:46:14Z INFO  queue connected
+2026-11-02T07:47:02Z INFO  event received id=ev_51f9 kind=task
+2026-11-02T07:47:32Z WARN  queue publish timeout after 20s (response ev_51f9)
+2026-11-02T07:48:13Z WARN  queue publish timeout after 20s (heartbeat seq=88416)
+2026-11-02T07:48:14Z INFO  queue reconnecting
+2026-11-02T07:48:15Z INFO  queue connected
+2026-11-02T08:09:45Z WARN  queue publish timeout after 20s (heartbeat seq=88431)

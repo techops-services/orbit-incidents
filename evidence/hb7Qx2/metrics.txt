@@ -1,0 +1,7 @@
+Workers dashboard snapshot, 2026-11-02 08:10 UTC (mainnet)
+
+worker     last_heartbeat   request_rate   response_rate   reconnects_15m
+worker-0   12 s             0.5 req/s      0.5 req/s       0
+worker-1   18 s             0.6 req/s      0.6 req/s       0
+worker-2   19.2 h           0.5 req/s      0 req/s         11
+worker-3   9 s              0.4 req/s      0.4 req/s       0

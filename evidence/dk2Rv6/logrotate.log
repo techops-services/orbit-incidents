@@ -1,0 +1,10 @@
+$ ssh indexer-1 'journalctl -u logrotate --since 2026-10-28 --no-pager | tail -n 8'
+
+Oct 29 00:00:01 indexer-1 logrotate[3121]: rotating pattern: /var/lib/indexer/logs/*.log daily (7 rotations)
+Oct 29 00:00:03 indexer-1 systemd[1]: logrotate.service: Succeeded.
+Oct 30 00:00:01 indexer-1 logrotate[4410]: error: skipping "/var/lib/indexer/logs/indexer.log" because parent directory has insecure permissions (It's world writable or writable by group which is not "root")
+Oct 30 00:00:01 indexer-1 systemd[1]: logrotate.service: Failed with result 'exit-code'.
+Oct 31 00:00:01 indexer-1 logrotate[5122]: error: skipping "/var/lib/indexer/logs/indexer.log" because parent directory has insecure permissions (It's world writable or writable by group which is not "root")
+Oct 31 00:00:01 indexer-1 systemd[1]: logrotate.service: Failed with result 'exit-code'.
+Nov 01 00:00:01 indexer-1 logrotate[5980]: error: skipping "/var/lib/indexer/logs/indexer.log" because parent directory has insecure permissions (It's world writable or writable by group which is not "root")
+Nov 01 00:00:01 indexer-1 systemd[1]: logrotate.service: Failed with result 'exit-code'.

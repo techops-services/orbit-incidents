@@ -1,0 +1,16 @@
+{
+  "id": "6b1f2c3e-8a4d-4e2b-9f1a-2c7d8e9f0a11",
+  "short_id": "hb7Qx2",
+  "source": "generic_webhook",
+  "status": "triggered",
+  "created_at": "2026-11-02T07:50:00Z",
+  "summary": "HeartbeatStale (mainnet): worker-2",
+  "description": "worker-2 has not sent a heartbeat for more than 5 minutes.",
+  "groups": ["Workers"],
+  "labels": [{"key": "worker", "value": "worker-2"}],
+  "alert_fields": {
+    "environment": "mainnet",
+    "severity": "page",
+    "runbook": "https://github.com/techops-services/orbit-runbooks/blob/main/heartbeat-stale.md"
+  }
+}

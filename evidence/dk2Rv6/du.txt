@@ -1,0 +1,13 @@
+$ ssh indexer-1 'df -h /var/lib/indexer; du -sh /var/lib/indexer/*'
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb        1.0T  910G   90G  91% /var/lib/indexer
+
+612G    /var/lib/indexer/data
+281G    /var/lib/indexer/logs
+ 17G    /var/lib/indexer/snapshots
+
+# Previous snapshot, 2026-10-29:
+610G    /var/lib/indexer/data
+ 64G    /var/lib/indexer/logs
+ 17G    /var/lib/indexer/snapshots

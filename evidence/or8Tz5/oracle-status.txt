@@ -1,0 +1,6 @@
+Price service status, testnet, 2026-11-02 08:06 UTC
+
+market      sources_configured   sources_valid   last_vendor_update    status
+BTC-PERP    3                    3               8 s ago               ok
+ETH-PERP    3                    3               6 s ago               ok
+SOL-PERP    2                    0               25 min ago            NO PRICE (vendor stale)
